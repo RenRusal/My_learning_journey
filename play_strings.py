@@ -38,6 +38,8 @@ print(string.count('hello'))
 """ 'hello' and 'Hello' are different, in this case
      we say that python is case-sensitive"""
 
+print(string+ ' My name is RenRusal')    # we call this method concatenation
+
 print('Hi my name is {}'.format('RensRusal'))
 
 print(string.upper())
