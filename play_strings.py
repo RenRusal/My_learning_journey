@@ -28,6 +28,9 @@ new_message2 = message2[-4]                  # the variable new_message2 will ho
 
 print(new_message2)                          # ... is called indexing
 
+#trick
+print(message1[::-1])                        #it simply reverses the string 
+
 """ we can manipulate strings using methods """
 
 string = "Hello, World "
