@@ -32,9 +32,20 @@ print(str(15.4))      # the str function will change the type of the variable to
 # Greater Than: 3 > 2 
 # Less Than: 3 < 2 
 # Greater or Equal: 3 >= 2 
-# Less or Equal: 3 <= 2
+# Less or Equal: 3 <= 2e o a 
 
 ''' just try to print those examples stated beside the notations
 I just felt lazy. '''
-                                                                                                               #end.
-                                                                                  
+                                                                                 
+''' What If we wanted to change a string-type expression to an integer or a float.'''
+
+var_3 = '1452'             #note: you can only convert number string-types not letters or words
+var_4 = int(var_3)         #change the type of the variable to an integer
+var_5 = float(var_3)       #change the type of the variable to a float
+
+print(var_4+9)             # apparently this would leave us with a nmuber equal to 1461
+print(var_5)               # output: 1452.0
+print(var_5/2)             #output:  726.0
+print(var_5  == var_4) #output: True
+print(var_5/2  == var_4/2)
+''' the same goes if we want to change an integer or float type to a string using the str function.
