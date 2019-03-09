@@ -32,11 +32,12 @@ print(str(15.4))      # the str function will change the type of the variable to
 # Greater Than: 3 > 2 
 # Less Than: 3 < 2 
 # Greater or Equal: 3 >= 2 
-# Less or Equal: 3 <= 2e o a 
+# Less or Equal: 3 <= 2 
 
-''' just try to print those examples stated beside the notations
-I just felt lazy. '''
-                                                                                 
+''' if we tried for example printing the argument 4**2 == 2**4 the output would be True   
+   and if we tried to print 3>=5 the output would be False, those are called booleans, oh! and the same goes for strings '''
+                                                                           
+
 ''' What If we wanted to change a string-type expression to an integer or a float.'''
 
 var_3 = '1452'             #note: you can only convert number string-types not letters or words
@@ -48,4 +49,4 @@ print(var_5)               # output: 1452.0
 print(var_5/2)             #output:  726.0
 print(var_5  == var_4) #output: True
 print(var_5/2  == var_4/2)
-''' the same goes if we want to change an integer or float type to a string using the str function.
+''' the same goes if we want to change an integer or float type to a string using the str function.'''
